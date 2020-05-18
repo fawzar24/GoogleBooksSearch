@@ -1,9 +1,17 @@
 div.jumbotron {
-    background-image: url(https://www.wallsauce.com/sr/39878/5/30/0/bookcase-wallpaper.jpg)
-    
+background-image: url(https://images.unsplash.com/photo-1474932430478-367dbb6832c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)
+
 }
 
-.white {
-    color: white;
+.white{
+    color:floralwhite;
 }
+
+/* a{
+    color: floralwhite;
+} */
+
+/* a{
+    color: blue;
+} */
 
