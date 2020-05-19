@@ -4,3 +4,5 @@ This is a React-based Google Books Search app. The MERN stack method was used to
 
 
 ![](booksapp/images/wireframe1.png)
+![](booksapp/images/wireframe2.png)
+
