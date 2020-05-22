@@ -11,6 +11,11 @@ const mongoose = require("mongoose");
 // connect to the mongo DBserver
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactgooglebooks");
 
+const mongoURI = 'mongodb://fawzar:ace1234@ds151127.mlab.com:51127/heroku_d052lk62';
+
+// create mongo connection
+const conn = mongoose.createConnection(mongoURI);
+
 // serve up on heroku
 if(process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
