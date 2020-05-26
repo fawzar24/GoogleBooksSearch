@@ -9,9 +9,8 @@ app.use(express.json());
 // this is for connect to mongodb
 const mongoose = require("mongoose");
 // connect to the mongo DBserver
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactgooglebooks");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooksearch5");
 
-const mongoURI = 'mongodb://fawzar:ace1234@ds151127.mlab.com:51127/heroku_d052lk62';
 
 // create mongo connection
 const conn = mongoose.createConnection(mongoURI);
