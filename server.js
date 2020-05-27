@@ -12,8 +12,6 @@ const mongoose = require("mongoose");
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooksearch5");
 
 
-// create mongo connection
-const conn = mongoose.createConnection(mongoURI);
 
 // serve up on heroku
 if(process.env.NODE_ENV === "production") {
